@@ -67,6 +67,16 @@ nav a.active{
     margin: 0 auto;
 }
 
+.content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 0 auto;
+}
+
 .menu {
     background-color: #1a1a2e;
     color: white;
@@ -136,3 +146,20 @@ nav a.active{
  .about-section ul li{
     margin-bottom: 5px;
  }
+
+ .page-icon {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Me-icon {
+    width: 250px;
+    height: 300px;
+    margin: 2px;
+}
