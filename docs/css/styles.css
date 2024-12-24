@@ -163,3 +163,13 @@ nav a.active{
     height: 300px;
     margin: 2px;
 }
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-item img {
+    margin-right: 10px;
+}
