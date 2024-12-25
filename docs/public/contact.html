@@ -32,19 +32,21 @@
             </div>
         </header>
         <main class="container">
-            <div class="content about">
-                <h1>Contact Page</h1>
-                <div class="contact-item">
-                    <a href="mailto:miguel.velascopasamontes@gmail.com">
-                    <img src="../images/sobre.png" alt="Phone Icon" class="menu-icon">
-                    </a>
-                    <strong>Click on the envelope to contact me through my email <u>miguel.velascopasamontes@gmail.com</u></strong>
-                 </div>
-                 <div class="contact-item">
-                    <img src="../images/phone.png" alt="Phone Icon" class="menu-icon">
-                    <strong>+34 673 21 73 73</strong>
-                </div>
-            </div>
+           <div class="content about">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="button">Send</button>
+            </form>
+           </div>
+    
             <div class="menu">
                 <div class="menu-content">
                     <div class="menu-item">
@@ -52,17 +54,14 @@
                             <img src="../images/social-media.png" alt="Media Icon" class="menu-icon">
                         </a>
                     </div>
-                        <div class="menu-item">
-                            <a href="../public/contact.html">
-                                <img src="../images/telephone-white.png" alt="Phone Icon" class="menu-icon">
-                            </a>
-                    </div>
+                        
                     <div class="menu-item">
                         <a href="../public/contact.html">
                             <img src="../images/envelope-white.png" alt="Email Icon" class="menu-icon">
                         </a>
                     </div>
                 </div>
+            </div>
         </main>
         <footer class="footer-section">
             <p>&copy; 2024 All Rights Reserved. Designes by<a href="#"> Miguel Velasco</a></p>

@@ -173,3 +173,33 @@ nav a.active{
 .contact-item img {
     margin-right: 10px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+    margin: 50px auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
