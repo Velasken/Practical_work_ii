@@ -31,6 +31,7 @@ header {
     display: flex;
     justify-self: space-between;
     align-items: center;
+    margin-right: 30px;
 }
 
 .header-title {
@@ -237,5 +238,5 @@ button:hover {
     float: right;
     height: 55px; 
     width: 250px;
-    margin-left: 500px;
+    margin-left: 300px;
 }
