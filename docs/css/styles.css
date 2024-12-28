@@ -11,9 +11,7 @@ html, body {
 }
 
 .structure {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    display: table-column
 }
 
 .container {
@@ -26,6 +24,7 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    font-weight: 500;
 }
 
 .header-content {
@@ -79,6 +78,7 @@ nav a.active{
     color: white;
     padding: 20px 0;
     text-align: center;
+    font-weight: 700;
 }
 
 .menu-content {
@@ -219,3 +219,16 @@ button:hover {
     font-weight: bold;
 }
 
+.Ciber-icon{
+    float: right;
+    height: 500px; 
+    width: 500px;
+    margin: 40px;
+}
+
+.FCE-icon{
+    float: right;
+    height: 400px; 
+    width: 500px;
+    margin: 10px;
+}
